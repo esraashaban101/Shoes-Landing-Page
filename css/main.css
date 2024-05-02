@@ -106,10 +106,11 @@ body {
 
   .home-text 
   {
-    width:50%;
+    width:40%;
     /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center; 
     align-items: start;
     padding: 20px;
@@ -273,7 +274,7 @@ button:hover i {
   }
   
 }
-@media screen and (max-width:500px)
+@media screen and (max-width:768px)
 
 {
   .landing-page .container
@@ -592,13 +593,6 @@ button:hover i {
     width: 45px;
     height: 45px;
   }
-}
-@media screen and (max-width:500px) {
-  .div1
-  {
-    width: 300px;
-  }
-  
 }
 
 /* our services */
