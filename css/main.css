@@ -728,7 +728,8 @@ button:hover i {
       font-family: var(--main-font);
       margin: 20px;
     }
-    .main-img {
+    .main-img
+    {
       width: 40%;
     }
     img {
@@ -746,7 +747,8 @@ button:hover i {
     gap: 10px;
     margin-top: 15px;
 
-    img {
+    img 
+    {
       width: 30px;
 
       border: 10px transparent solid;
@@ -755,7 +757,8 @@ button:hover i {
     }
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) 
+{
   .details {
     background-image: none;
     text-align: center;
@@ -763,17 +766,17 @@ button:hover i {
       flex-direction: column;
     }
   }
-  .details .main-img {
+  .details .main-img
+   {
     width: 100%;
-    img {
-      width: 400px;
-    }
+    margin: auto;
   }
 }
 
+
 /* footer */
 footer {
- 
+
   background-color: #eeeeee;
  
   font-family: var(--main-font);
@@ -873,9 +876,10 @@ footer {
 @media screen and (max-width: 768px)
  {
   footer {
-   
+   /* width: 100%; */
   .container
   {
+   
     flex-direction: column;
     
     align-items: center;
